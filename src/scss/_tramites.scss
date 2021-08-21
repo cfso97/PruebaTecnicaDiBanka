@@ -318,6 +318,13 @@
         flex-direction: column;
     }
 
+    .container-tramites .cont-tramites .content {
+        display: flex;
+        grid-template-columns: 28% 1fr;
+        gap: 50px;
+        flex-direction: column-reverse;
+    }
+
     .container-tramites .cont-tramites nav .divTramites {
         display: flex;
         gap: 20px;
@@ -334,5 +341,9 @@
 
     .container-tramites .modalDialog > div .modal-header table {
         width: 90%;
+    }
+
+    .estado{
+        display: none;
     }
 }

@@ -36,7 +36,7 @@
                   <th scope="col">Fecha de creación</th>
                   <th scope="col">No. Radicado</th>
                   <th scope="col">Asunto</th>
-                  <th scope="col">Estado</th>
+                  <th scope="col" class="estado">Estado</th>
                   <th scope="col">Historial</th>
                 </tr>
               </thead>
@@ -187,7 +187,7 @@ export default {
       this.tr2 = ''
       this.datosModal = []
       for (let j = 0; j < tramites.length; j++) {
-        this.tr += '<td>'+tramites[j].fecha+'</td><td>'+tramites[j].radicado+'</td><td>'+tramites[j].asunto+'</td><td>'+tramites[j].estado+'</td><td><a href="#openModal" class="btn-blue">Ver</a></td></tr>'
+        this.tr += '<td>'+tramites[j].fecha+'</td><td>'+tramites[j].radicado+'</td><td>'+tramites[j].asunto+'</td><td class="estado">'+tramites[j].estado+'</td><td><a href="#openModal" class="btn-blue">Ver</a></td></tr>'
         this.datosModal.push(tramites[j].radicado)
 
         console.log(tramites[j].radicado);
