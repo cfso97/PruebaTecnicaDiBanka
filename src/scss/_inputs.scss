@@ -1,0 +1,55 @@
+input{
+    font: 400 13.3333px Arial;
+    border: none;
+    border-bottom: 1px solid #42B9E7;
+    padding: 10px 15px;
+    background: transparent;
+
+    &:focus-visible {
+        outline: none;
+        border-bottom: 2px solid #42B9E7;
+        transition: 0.2s;
+    }
+
+    &::placeholder{
+        color: #bdbdbd;
+    }
+}
+
+select{
+    font: 400 13.3333px Arial;
+    border: none;
+    border-bottom: 1px solid #42B9E7;
+    padding: 10px 25px;
+    background: transparent;
+
+    &:focus-visible {
+        outline: none;
+        border-bottom: 2px solid #42B9E7;
+        transition: 0.2s;
+    }
+
+    &::placeholder{
+        color: #bdbdbd;
+    }
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    -webkit-appearance: none;
+}
+
+label{
+    margin-top: 20px;
+    // padding-left: 10px;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,41 @@
+table{
+    font-size: 0.9rem;
+
+    td{
+        padding: 15px 0.5rem;
+    }
+
+    .btn-blue{
+        padding: 6px 20px;
+        font-size: 0.8rem;
+        text-decoration: none;
+    }
+}
+
+table.tramites {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.tramites td, table.tramites th {
+    border-bottom: 1px solid #7A7A7A;
+    padding: 15px 4px;
+}
+table.tramites tbody td {
+    font-size: 13px;
+}
+table.tramites thead {
+
+}
+table.tramites thead th {
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+}
+table.tramites thead th:first-child {
+    border-left: none;
+}
+
+table.tramites tfoot td {
+    font-size: 0.8rem;
+}
