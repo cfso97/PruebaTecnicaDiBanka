@@ -22,7 +22,6 @@
               <label for="estado">Búsqueda por estado</label>
               <select>
                 <option disabled value="">Seleccione un el</option>
-                <option>Tramites pendientes</option>
                 <option>Tramites cerrados</option>
                 <option>Tramites Abiertos</option>
               </select>            
@@ -85,69 +84,91 @@
         </div>
   
         <div class="chat">
-          <div class="content uRight">
-            <p class="fecha">Usuario  13:20 Ago 12/21</p>
-            <div class="user">
-                <div class="messg">
-                  <h3>Lorem Ipsum es simplemente el texto de relleno de las.</h3>
-                </div>
-            </div>
-          </div>
-          <div class="content uleft">
-            <p class="fecha">Usuario  13:20 Ago 12/21</p>
-            <div class="user">
-                <div class="messg">
-                  <h3>Lorem Ipsum es simplemente el texto de relleno de las.</h3>
-                </div>
-            </div>
+          <div class="lineDay">
+            <hr>
+            <p>Ago 12/21</p>
+            <hr>
           </div>
           <div class="content uRight">
             <p class="fecha">Usuario  13:20 Ago 12/21</p>
             <div class="user">
                 <div class="messg">
-                  <h3>Lorem Ipsum es simplemente el texto de relleno de las.</h3>
+                  <h3>Buenas tardes, me gustaria hacer un reclamo</h3>
                 </div>
             </div>
           </div>
           <div class="content uleft">
-            <p class="fecha">Usuario  13:20 Ago 12/21</p>
+            <p class="fecha">Asesor  13:21 Ago 12/21</p>
             <div class="user">
                 <div class="messg">
-                  <h3>Lorem Ipsum es simplemente el texto de relleno de las.</h3>
+                  <h3>Buenas tardes, sobre que es el reclamo?</h3>
                 </div>
             </div>
           </div>
           <div class="content uRight">
-            <p class="fecha">Usuario  13:20 Ago 12/21</p>
+            <p class="fecha">Usuario  13:25 Ago 12/21</p>
             <div class="user">
                 <div class="messg">
-                  <h3>Lorem Ipsum es simplemente el texto de relleno de las.</h3>
-                </div>
-            </div>
-          </div>
-          <div class="content uleft">
-            <p class="fecha">Usuario  13:20 Ago 12/21</p>
-            <div class="user">
-                <div class="messg">
-                  <h3>Lorem Ipsum es simplemente el texto de relleno de las.</h3>
+                  <h3>Una factura con valores incorrectos</h3>
                 </div>
             </div>
           </div>
           <div class="content uRight">
-            <p class="fecha">Usuario  13:20 Ago 12/21</p>
             <div class="user">
                 <div class="messg">
-                  <h3>Lorem Ipsum es simplemente el texto de relleno de las.</h3>
+                  <h3>quisiera solicitar la corrección</h3>
+                </div>
+            </div>
+          </div>
+          <div class="content uRight">
+            <div class="file">
+                <a href="/assets/documents/modelo-factura-pdf.pdf" target="_blank" class="messg">
+                  <img src="../assets/pdf.png" alt="">
+                  <p>Factura.pdf</p>
+                </a>
+            </div>
+          </div>
+          <div class="content uleft">
+            <p class="fecha">Asesor  13:30 Ago 12/21</p>
+            <div class="user">
+                <div class="messg">
+                  <h3>En 3 dias habiles se le enviará la factura corregida al correo, tambien podra descargarla por este medio.</h3>
+                </div>
+            </div>
+          </div>
+          <div class="content uRight">
+            <p class="fecha">Usuario  13:32 Ago 12/21</p>
+            <div class="user">
+                <div class="messg">
+                  <h3>Muchas gracias, quedo atento.</h3>
+                </div>
+            </div>
+          </div>
+          <div class="lineDay">
+            <hr>
+            <p>Ago 15/21</p>
+            <hr>
+          </div>
+          <div class="content uleft">
+            <p class="fecha">Asesor  13:33 Ago 12/21</p>
+            <div class="user">
+                <div class="messg">
+                  <h3>Buenas tardes, adjunto factura corregida</h3>
                 </div>
             </div>
           </div>
           <div class="content uleft">
-            <p class="fecha">Usuario  13:20 Ago 12/21</p>
-            <div class="user">
-                <div class="messg">
-                  <h3>Lorem Ipsum es simplemente el texto de relleno de las.</h3>
-                </div>
+            <div class="file">
+                <a href="/assets/documents/modelo-factura-pdf.pdf" target="_blank" class="messg">
+                  <img src="../assets/pdf.png" alt="">
+                  <p>Factura corregida.pdf</p>
+                </a>
             </div>
+          </div>
+          <div class="lineDay">
+            <hr>
+            <p>Tramite cerrado</p>
+            <hr>
           </div>
         </div>
       </div>

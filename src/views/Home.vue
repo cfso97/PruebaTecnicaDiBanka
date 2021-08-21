@@ -58,9 +58,9 @@ export default {
   data(){
     return {
       showModal: false,
-      email: 'qweqw@gmail.com',
-      telefono: '1234',
-      pin: '1234',
+      email: '',
+      telefono: '',
+      pin: '',
       pinUser: null,
       users: users.info
     }
@@ -80,7 +80,7 @@ export default {
         localStorage.setItem("key", JSON.stringify(user));
       }
       else{
-        alert("qweqwe")
+        alert("Verifique la información ingresada")
       }
     },
 
