@@ -1,48 +1,55 @@
 <template>
   <div class="container-tramites">
-    <nav>
-      <img src="../assets/Logo-dibanka-768x158.png" alt="logo" class="logo">
-      <div class="divTramites">
-        <h2>Tramites</h2>
-        <router-link to="/">
-            <button class="btn-blue">Consultar otro usuario </button>
-        </router-link>
-      </div>
-    </nav>
+    <div class="cont-tramites">
+      <nav>
+        <img src="../assets/Logo-dibanka-768x158.png" alt="logo" class="logo">
+        <div class="divTramites">
+          <h2>Tramites</h2>
+          <router-link to="/">
+              <button class="btn-blue">Consultar otro usuario </button>
+          </router-link>
+        </div>
+      </nav>
 
-    <section class="content">
-        <div>
-          <div class="buscar">
-            <h2>Buscar tramite</h2>
-            <label for="radicado">Búsqueda por No. de radicado</label>
-            <input class="radicado" type="text" id="radicado" v-model="radicado">
-            <label for="fecha">Búsqueda por fecha</label>
-            <input type="date" id="fecha" placeholder="" >
-            <label for="estado">Búsqueda por estado</label>
-            <select>
-              <option disabled value="">Seleccione un el</option>
-              <option>Tramites pendientes</option>
-              <option>Tramites cerrados</option>
-              <option>Tramites Abiertos</option>
-            </select>            
-            <button class="btn-yellow" @click="filtrarTramite()">Consultar</button>
+      <section class="content">
+          <div>
+            <div class="buscar">
+              <h2>Buscar tramite</h2>
+              <label for="radicado">Búsqueda por No. de radicado</label>
+              <input class="radicado" type="text" id="radicado" v-model="radicado">
+              <label for="fecha">Búsqueda por fecha</label>
+              <input type="date" id="fecha" placeholder="" >
+              <label for="estado">Búsqueda por estado</label>
+              <select>
+                <option disabled value="">Seleccione un el</option>
+                <option>Tramites pendientes</option>
+                <option>Tramites cerrados</option>
+                <option>Tramites Abiertos</option>
+              </select>            
+              <button class="btn-yellow" @click="filtrarTramite()">Consultar</button>
+            </div>
           </div>
-        </div>
-        <div class="historial">
-          <table class="tramites">
-            <thead>
-              <tr>
-                <th scope="col">Fecha de creación</th>
-                <th scope="col">No. Radicado</th>
-                <th scope="col">Asunto</th>
-                <th scope="col">Estado</th>
-                <th scope="col">Historial</th>
-              </tr>
-            </thead>
-            <tbody ref="" v-html="tr"></tbody>
-          </table>
-        </div>
-    </section>
+          <div class="historial">
+            <table class="tramites">
+              <thead>
+                <tr>
+                  <th scope="col">Fecha de creación</th>
+                  <th scope="col">No. Radicado</th>
+                  <th scope="col">Asunto</th>
+                  <th scope="col">Estado</th>
+                  <th scope="col">Historial</th>
+                </tr>
+              </thead>
+              <tbody ref="" v-html="tr"></tbody>
+            </table>
+          </div>
+      </section>
+
+      <div class="footer">
+        <p><span>DiBanka 2021</span> Copyright © Todos los derechos reservados - <a href="https://dibanka.co/wp-content/uploads/2021/05/Politica-de-Tratamiento-de-Datos-Personales-Mayo-2021.pdf">Política de privacidad</a> - <a href="https://dibanka.co/la_empresa/">¿Quiénes somos?</a> - <a href="https://dibanka.co/contactanos/"> Contact us / Contacta con nosotros </a></p>
+      </div>
+
+    </div>
 
     <transition name="fade">
         <div class="super-modal" v-if="showModal">
@@ -58,7 +65,7 @@
         </div>
     </transition>
 
-    <!-- CHAT -->
+      <!-- CHAT -->
 
     <div id="openModal" class="modalDialog">
       <div>
@@ -144,7 +151,7 @@
           </div>
         </div>
       </div>
-     
+    
     </div>
   </div>
 </template>
