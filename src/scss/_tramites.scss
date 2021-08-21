@@ -145,76 +145,8 @@
         }
     }   
 
-    .super-modal{
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        z-index: 100;
-        background: rgba(0, 0, 0, 0.459);
-
-        .modal{
-            position: fixed;
-            display: grid;
-            max-width: 370px;
-            width: 95%;
-            height: auto;
-            top: 20%;
-            left: 50%;
-            transform: translate(-50%, 50%);
-            padding: 20px 45px 30px;
-            border-radius: 25px;
-            z-index: 101;
-            background: white;
-
-            .close{
-                position: absolute;
-                background: transparent;
-                border: none;
-                top: 20px;
-                right: 15px;
-                cursor: pointer;
-
-                img{
-                    width: 20px;
-                }
-            }
-
-            h1{
-                text-align: center;
-                font-size: 1.6rem;
-                font-weight: 500;
-                margin-top: 10px;
-                margin-bottom: 10px;
-            }
-
-            p{
-                width: 80%;
-                margin: auto;
-                text-align: center;
-                font-size: 1.2rem;
-                margin-bottom: 10px;
-            }
-
-            label{
-                width: 70%;
-            }
-
-            input{
-                width: 70%;
-            }
-
-            .btn-yellow{
-                width: 80%;
-                margin: auto;
-                margin-top: 20px;
-            }
-        }
-    }
-
     .modalDialog {
-        position: absolute;
+        position: fixed;
         display: flex;
         font-family: Arial, Helvetica, sans-serif;
         top: 0;
@@ -340,4 +272,66 @@
             width: 20px;
         }
     }  
+}
+
+@media (max-width: 1100px) {
+    .container-tramites .cont-tramites .content {
+        grid-template-columns: 35% 1fr;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container-tramites .cont-tramites .content {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 50px;
+    }
+
+    .container-tramites .cont-tramites .content .buscar label::before {
+        margin-left: -15px;
+    }
+
+    .container-tramites .modalDialog > div {
+        width: 85%;
+    }
+
+    .container-tramites .cont-tramites .content .historial {
+        background: white;
+        border-radius: 25px;
+        box-shadow: 1px 14px 30px 5px #d8d8d8;
+        padding: 30px;
+    }
+
+    .historial{
+        table tbody tr:last-child td{
+            border: none;
+        }
+    }
+}
+
+@media (max-width: 600px){
+    .container-tramites .cont-tramites nav {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .container-tramites .cont-tramites nav .divTramites {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-tramites .cont-tramites .content .historial {
+        background: white;
+        border-radius: 25px;
+        box-shadow: 1px 14px 30px 5px #d8d8d8;
+        padding: 20px 10px;
+    }
+
+    .container-tramites .modalDialog > div .modal-header table {
+        width: 90%;
+    }
 }
