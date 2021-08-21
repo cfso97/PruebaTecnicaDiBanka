@@ -3,6 +3,7 @@
     height: auto;
     padding: 15px;
     border: none;
+    font-weight: 400;
     border-radius: 25px;
     background: #F6AF15;
     color: white;
@@ -12,6 +13,9 @@
 
     &:hover{
         background: #42B9E7;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        transform: translateY(-3px);
+        font-weight: 500;
     }
 }
 
@@ -20,6 +24,7 @@
     height: auto;
     padding: 15px;
     border: none;
+    font-weight: 400;
     border-radius: 25px;
     background: #42B9E7;
     color: white;
@@ -29,5 +34,8 @@
 
     &:hover{
         background: #F6AF15;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        transform: translateY(-6px);
+        font-weight: 500;
     }
 }

@@ -46,7 +46,7 @@
       </section>
 
       <div class="footer">
-        <p><span>DiBanka 2021</span> Copyright © Todos los derechos reservados - <a href="https://dibanka.co/wp-content/uploads/2021/05/Politica-de-Tratamiento-de-Datos-Personales-Mayo-2021.pdf">Política de privacidad</a> - <a href="https://dibanka.co/la_empresa/">¿Quiénes somos?</a> - <a href="https://dibanka.co/contactanos/"> Contact us / Contacta con nosotros </a></p>
+        <p><span>DiBanka 2021</span> Copyright © Todos los derechos reservados - <a href="https://dibanka.co/wp-content/uploads/2021/05/Politica-de-Tratamiento-de-Datos-Personales-Mayo-2021.pdf" target="_blank">Política de privacidad</a> - <a href="https://dibanka.co/la_empresa/" target="_blank">¿Quiénes somos?</a> - <a href="https://dibanka.co/contactanos/" target="_blank"> Contact us / Contacta con nosotros </a></p>
       </div>
 
     </div>
