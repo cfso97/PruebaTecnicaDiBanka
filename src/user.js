@@ -63,8 +63,7 @@ export default{
           tramites:[
             {
               fecha: "29/08/2019",
-              radicado: "20190801-0007",
-              asunto: "PQRS - Queja sobre el área de cartera", 
+              radicado: "20190801-0007", 
               estado: "Cerrado",
               historial: true,
             },

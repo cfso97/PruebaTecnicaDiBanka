@@ -186,6 +186,10 @@
         .modal-header{
             display: flex;
             justify-content: space-between;
+
+            @media(max-width: 520px){
+                margin-top: 120px;
+            }
             
             table{
                 width: 75%;
