@@ -2,7 +2,7 @@ export default{
     info: [
         {
           correo: "tolaya@dibanka.co",
-          telefono: "",
+          telefono: "3152059874",
           pin: "7535",
           tramites:[
             {
@@ -58,7 +58,7 @@ export default{
         },
         {
           correo: "hugo@evolutionxp.com",
-          telefono: "",
+          telefono: "3152059874",
           pin: "9632",
           tramites:[
             {
